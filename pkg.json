@@ -1,0 +1,17 @@
+{
+	"code": {
+		"test": [
+			"test",
+			"js"
+		],
+		"main": [
+			"js",
+			"dist",
+			"pfsp-wt.js"
+		]
+	},
+	"ns": "pfsp-wt",
+	"out": "js/dist/",
+	"debug": false,
+	"src": "js/src/"
+}
