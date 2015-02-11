@@ -1,0 +1,11 @@
+{
+	"description": "permutation flow-shop problem (PFSP) with weighted tardiness objective (PFSP-WT) code bricks for JavaScript",
+	"version": "0.0.1",
+	"repo": "aureooms/js-pfsp-wt",
+	"scripts": [
+		"js/dist/pfsp-wt.js"
+	],
+	"name": "aureooms-js-pfsp-wt",
+	"license": "AGPL-3.0",
+	"main": "js/dist/pfsp-wt.js"
+}
