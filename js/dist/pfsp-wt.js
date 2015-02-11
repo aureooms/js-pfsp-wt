@@ -9,8 +9,8 @@
 
 var __exchange__ = function ( swap ) {
 
-	return function ( solution , i , j ) {
-		swap( solution , i , j ) ;
+	return function ( solution , mutation ) {
+		swap( solution , mutation[0] , mutation[1] ) ;
 	} ;
 
 } ;
@@ -22,9 +22,12 @@ exports.__exchange__ = __exchange__ ;
 
 var __insert__ = function ( copy ) {
 
-	return function ( solution , i , j ) {
+	return function ( solution , mutation ) {
 
-		var tmp , s , a ;
+		var tmp , i , j , s , a ;
+
+		i = mutation[0] ;
+		j = mutation[1] ;
 
 		s = j > i | 0 ;
 		a = [ i , j ] ;
@@ -47,8 +50,8 @@ exports.__insert__ = __insert__ ;
 
 var __transpose__ = function ( swap ) {
 
-	return function ( solution , i , j ) {
-		swap( solution , i , j ) ;
+	return function ( solution , mutation ) {
+		swap( solution , mutation , mutation + 1 ) ;
 	} ;
 
 } ;
