@@ -3,7 +3,7 @@
 	"homepage": "http://aureooms.github.io/js-pfsp-wt/",
 	"name": "aureooms-js-pfsp-wt",
 	"main": "js/dist/pfsp-wt.js",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"description": "permutation flow-shop problem (PFSP) with weighted tardiness objective (PFSP-WT) code bricks for JavaScript",
 	"ignore": [
 		"js/index.js",
