@@ -3,7 +3,7 @@
 
 permutation flow-shop problem (**PFSP**) with weighted tardiness objective (**PFSP-WT**) code bricks for JavaScript
 
-[![NPM license](https://img.shields.io/npm/l/@aureooms/js-pfsp-wt.svg?style=flat)](https://raw.githubusercontent.com/aureooms/js-pfsp-wt/master/LICENSE)
+[![License](https://img.shields.io/github/license/aureooms/js-pfsp-wt.svg?style=flat)](https://raw.githubusercontent.com/aureooms/js-pfsp-wt/master/LICENSE)
 [![NPM version](https://img.shields.io/npm/v/@aureooms/js-pfsp-wt.svg?style=flat)](https://www.npmjs.org/package/@aureooms/js-pfsp-wt)
 [![Bower version](https://img.shields.io/bower/v/@aureooms/js-pfsp-wt.svg?style=flat)](http://bower.io/search/?q=@aureooms/js-pfsp-wt)
 [![Build Status](https://img.shields.io/travis/aureooms/js-pfsp-wt.svg?style=flat)](https://travis-ci.org/aureooms/js-pfsp-wt)
