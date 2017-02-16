@@ -26,7 +26,7 @@
 	"devDependencies": {
 		"aureooms-node-package": "^6.0.1"
 	},
-	"name": "aureooms-js-pfsp-wt",
+	"name": "@aureooms/js-pfsp-wt",
 	"author": "aureooms",
 	"main": "js/dist/pfsp-wt.js",
 	"version": "0.0.3",
