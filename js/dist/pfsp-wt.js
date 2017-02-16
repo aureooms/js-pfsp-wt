@@ -1,6 +1,8 @@
-(function(exports, undefined){
+( function ( ) {
 
-	'use strict';
+'use strict' ;
+
+var definition = function ( exports , undefined ) {
 
 
 /* js/src/apply */
@@ -58,4 +60,16 @@ var __transpose__ = function ( swap ) {
 
 exports.__transpose__ = __transpose__ ;
 
-})(typeof exports === 'undefined' ? this['pfsp-wt'] = {} : exports);
+return exports ;
+} ;
+if ( typeof exports === "object" ) {
+	definition( exports ) ;
+}
+else if ( typeof define === "function" && define.amd ) {
+	define( "@aureooms/js-pfsp-wt" , [ ] , function ( ) { return definition( { } ) ; } ) ;
+}
+else if ( typeof window === "object" && typeof window.document === "object" ) {
+	definition( window["pfspwt"] = { } ) ;
+}
+else console.error( "unable to detect type of module to define for @aureooms/js-pfsp-wt") ;
+} )( ) ;
