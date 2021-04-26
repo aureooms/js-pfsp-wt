@@ -11,11 +11,11 @@
 		"scheduling"
 	],
 	"bugs": {
-		"url": "https://github.com/aureooms/js-pfsp-wt/issues"
+		"url": "https://github.com/make-github-pseudonymous-again/js-pfsp-wt/issues"
 	},
 	"description": "permutation flow-shop problem (PFSP) with weighted tardiness objective (PFSP-WT) code bricks for JavaScript",
 	"repository": {
-		"url": "https://github.com/aureooms/js-pfsp-wt.git",
+		"url": "https://github.com/make-github-pseudonymous-again/js-pfsp-wt.git",
 		"type": "git"
 	},
 	"scripts": {
