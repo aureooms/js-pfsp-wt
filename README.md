@@ -1,4 +1,4 @@
-[js-pfsp-wt](http://aureooms.github.io/js-pfsp-wt)
+[js-pfsp-wt](http://make-github-pseudonymous-again.github.io/js-pfsp-wt)
 ==
 
 permutation flow-shop problem (**PFSP**) with weighted tardiness objective (**PFSP-WT**) code bricks for JavaScript
